@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.alinhamento{
+    width: 100%;
+    background:#1b003f;
+    float: right;
+    min-width: 1200px;
+}
+.navbar{
+    width: 700px;
+}
+
+.navbar a{
+    position: relative;
+    left: 680px;
+    padding: 5px 40px;
+    font-size: 1.1rem;
+    font-family: 'Kulim Park', sans-serif;
+    text-decoration: none !important;
+    color: pink !important;
+}
+
+a:hover{
+   color: rgb(96, 30, 112) !important;
+}
+
+.background1{
+    height: 520px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/Nome\ da\ marca.png);
+    background-repeat: no-repeat;
+    min-width: 1200px;
+}
+
+.formulario{
+    position: relative;
+    width: 280px;
+    height: calc(100%+ 30px);
+    float: right;
+    font-family: 'Kulim Park', sans-serif;
+    color:  rgb(215, 211, 218);
+    top: 60px;
+    right: 50px;
+    height: 320px;
+    padding: 30px 20px 0px;
+    border: 2px solid rgb(215, 211, 218);
+    border-radius: 1rem;
+}
+
+.formulario label{
+    margin-bottom: 0px;
+}
+
+.formulario h5{
+    width: 240px;
+}
+
+.formulario input{
+    text-shadow: darkgray;
+    width: 220px;
+    height: 30px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.formulario button{
+    font-size: 18px;
+    width: 100px;
+    font-family: 'Kulim Park', sans-serif;
+    margin: 20px auto;
+    padding: 2px 2px 2px 2px;
+    text-align: center !important;
+    border-radius: 5px;
+    border: 0.8px rgb(215, 211, 218) solid;
+    background-color: transparent;
+    color: rgb(219, 163, 171);
+    display: block;
+}
+
+button:hover{
+    background-color: rgba(240, 248, 255, 0.13);
+}
+.icon{
+    width: 25px;
+    background-image: url(../img/arrow.png);
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 510px;
+    left: 50%;
+    position: relative;
+    bottom: 40px;
+}
+.container1{
+    width: 100%;
+    margin-top: 2.5rem;
+    border-bottom: 2px dotted rgb(213, 169, 226);
+    min-width: 1200px;
+}
+.container1 h5{
+    margin-top: 100px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(145, 144, 144);
+    text-align: center;
+    font-weight: bold;
+}
+
+.container1 p{
+    width: 65%;
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 1rem;
+    display: block;
+    margin: 60px auto 100px auto;
+    text-align: justify;
+    color: rgb(122, 120, 120);
+}
+
+.container2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    min-width: 1200px;
+}
+
+.service1 h5, .service2 h5, .service3 h5{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: rgb(112, 112, 112);
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.service1, .service2, .service3{
+    width: 100%;
+    height: 100%;
+}
+
+.service1 img, .service2 img, .service3 img{
+    width: 50%;
+    height: 40%;
+    padding: 0px 15px;
+}
+
+.service1 p, .service2 p, .service3 p{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 0.9rem;
+    color: rgb(97, 97, 97);
+    margin-bottom: 30px;
+}
+
+.container-final{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    background:#1b003f;
+    border-bottom: 0.5px solid white;
+    min-width: 1200px;
+}
+
+
+.sobre-empresa{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.sobre-empresa h5, .contato h5{
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.sobre-empresa p{
+    margin-top: 50px;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    width: 50%;
+    margin: 50px auto;
+    color: white;
+}
+
+.contato{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.redes-sociais{
+    display: flex;
+    width: 100%;   
+}
+
+.facebook img, .twitter img, .linkedin img{
+    display: block;
+    margin: 70px 50% 10px 50%;
+    height: 35%;
+    width: 25%;
+}
+
+.facebook a, .twitter a, .linkedin a{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    width: 0%;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background:#1b003f;
+    min-width: 1200px;
+
+}
+
+.footer p{
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+
+
+/* .navbar button{
+    padding: 2px 2px 2px 2px;
+    border-radius: 50px;
+    border: 0.8px pink solid;
+    background-color: transparent;
+} */
