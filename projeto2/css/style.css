@@ -3,8 +3,9 @@
     padding: 0;
 }
 
+<<<<<<< HEAD
 .primary-section{
-    background-image: url(/img/bg.png);
+    background-image: url(/img/background.png);
     width: 100%;
     height: 640px;
     background-size: cover;
@@ -34,77 +35,51 @@ a[href="#"]{
 }
 a:hover{
     color: #ccc;
+=======
+html, body{
+    height: 100%;
+>>>>>>> parent of d416edf... Nova concepção do Projeto 2, ainda falta adicionar mais conteúdos e mais consertos
 }
 
-.button-primary{
-    margin-left: 10px;
-    width: 120px;
-    font-family: 'Ubuntu', sans-serif;
-    height: 35px;
-    padding: 10px 3px;
-    color: white;
-    background-color: transparent;
-    border: 2px groove rgb(170, 170, 170);  
-}
-
-.button-primary:hover{
-    background-color: white;
-    color: rgb(53, 53, 53);
-    cursor: pointer;
-    border: 2px  white; 
-    border-bottom: 0;
-    border-left: 0;
-    border-right: 0;
-}
-.text{
-    position: absolute;
-    top: 200px;
+.main-bg{
+    background-image: url(../img/créateur\ de\ mode.png);
     width: 100%;
-    min-width: 1280px;
+    height: 100%;
+    background-size: cover;
 }
 
-.title-1{
-    margin-top: 20px;
-    font-weight: normal;
-    letter-spacing: 5px;
-    color: rgba(134, 134, 134, 0.966);
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
+nav{
+    background-color: transparent ;
 }
 
-.title-2{
-    width: 50%;
-    margin-top: 20px;
-    font-weight: normal;
-    color: rgba(255, 255, 255, 0.555);
-    font-size: 80px;
+a{
+    font-family: 'Raleway', sans-serif !important;
 }
 
-.secundary-section{
+.section1{
+    margin-top: 40px;
     width: 100%;
-    height: 400px;
-    min-width: 1280px;
+    height: 800px;
 }
 
-.secundary-section h2{
-    font-family: 'Raleway', sans-serif;
-    font-weight: normal;
-    font-size: 32px;
-    text-align: center;
-    padding-top: 90px;
-    padding-bottom: 0px;
+.icon-arrowdown{
+    width: 100%;
+    height: auto;
+    margin-top: -15px;
 }
-.secundary-section strong{
-    font-size: 30px;
-    color: rgb(51, 51, 51);
-    font-weight: bold;
-    text-decoration: underline #C4B1C4;
+.icon-arrowdown img{
+    width: 50px;
+    height: 45px;
+    display: block;
+    margin: 0 auto;
 }
 
-.secundary-section span{
-    font-weight: bold;
+.container{
+    margin: 40px auto;
+    max-width: 1280px;
+    width: 90%;
 }
+<<<<<<< HEAD
 .secundary-section p{
     font-size: 21px;
     font-weight: normal;
@@ -124,147 +99,67 @@ a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 1280px;
+=======
+.container h4{
+    padding-left: 100px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(2, 2, 2);
+>>>>>>> parent of d416edf... Nova concepção do Projeto 2, ainda falta adicionar mais conteúdos e mais consertos
 }
 
-.terciary-section p{
-    position: absolute;
-    font-family: 'Raleway', sans-serif; 
-    color: rgba(255, 255, 255, 0.849);
-    top: 105px;
-    right: 0;
-    left: 0;
-    font-size: 60px;
-}
-.quartenary-section{
-    margin-top: 30px;
-    color: black;
-    width: 100%;
-    min-width: 1280px;
-}
-.quartenary-section:hover{
-    background: black;
-    -webkit-transition: 0100s ease-out;
-    -moz-transition: 0.100s ease-out;
-    -o-transition: 0.1500s ease-out;
-    transition: 0.15s ease-out;
-    color: white;
-}
 
-.div-title{
-    padding-top: 150px;
-    font-weight: normal;
-    font-family: 'Raleway', sans-serif;  
-    letter-spacing: 2px;
+.linha-titulo{
+    margin: 0 8%;
     text-align: center;
-    font-size: 40px;
-    height: 100px;
+    width: 300px;
+    height: 3px;
+    border-width: 0;
+    background-color: #d29e1d;
 }
 
-.card-group{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 600px;
-    min-width: 1280px;
-}
-.card{
-    height: 400px;
-    padding-top: 100px;
+.carousel{
+    width: 60%;
     margin: 0 auto;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 30%;
+    padding: 10px 10px;
+    
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    background-color: rgba(255, 202, 255, 0.76);
-    margin-right: 20px;
-}
-  
-.container {
-    padding: 2px 16px;
+.carousel-inner img{
+    height: 400px;
+    
 }
 
-.card img{
+
+
+/* .main-menu{
+    background-image: url(../img/créateur\ de\ mode.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 300px;
-    padding-bottom: 20px;
+    height: 100%;
+    overflow: hidden;
 }
 
-.card p, .card h5{
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.redes-sociais{
-    display: flex;
+nav{
+    margin-top: 15px;
     width: 100%;
-    height: 70px;
-    background-color:rgba(134, 134, 134, 0.212);
-    justify-content: center;
-    min-width: 1280px;
+    height: auto;
 }
-
-.redes-sociais img{
-    height: 20px;
-    width: 20px;
-    position: relative;
-    top: 40%;
-    margin-right: 10px;
-}
-
-.redes-sociais img:hover{
-    cursor: pointer;
-    opacity: 65%;
-}
-
-.footer{
-    background-color: #5A5A59;
-    height: 160px;
-    text-align: center;
-    width: 100%;
-    min-width: 1280px;
-}
-
-.footer:hover{
-    background-color: black;
-    -webkit-transition: 0100s ease-out;
-    -moz-transition: 0.100s ease-out;
-    -o-transition: 0.1500s ease-out;
-    transition: 0.15s ease-out;
-}
-
-.location{
-    font-family: 'Raleway', sans-serif; 
-    margin:0px 250px; 
-    color: white;
-    font-size: 16px;
-    letter-spacing: 2px;
-    padding-top: 60px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.powered-by{
-    margin:0px 400px; 
-    font-family: 'Raleway', sans-serif;  
-    font-size: 15px;
-    color: white;
-    padding-top: 25px;
-    letter-spacing: 2px;
-    padding-left: 100px;
-    padding-right: 100px;
-    color: rgb(41, 41, 41);
-}
-
-.powered-by a[href="."]{
+nav a{
+    height: auto;
+    width: auto;
     text-decoration: none;
-    color: rgb(41, 41, 41);
-}
-.powered-by a:hover{
-    cursor: pointer;
-    opacity: 50%;
+    font-family: 'Open Sans', sans-serif;
     color: white;
+    font-size: 18px;
+    padding: 5px 30px;
+    border: solid 2px rgba(255, 217, 1, 0.486);
+    border-radius: 2rem;
 }
+
+a:hover{
+    background-color: rgba(243, 203, 26, 0.712);
+} */
