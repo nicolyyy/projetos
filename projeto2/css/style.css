@@ -4,7 +4,7 @@
 }
 
 .primary-section{
-    background-image: url(/img/créateur\ de\ mode.png);
+    background-image: url(/img/bg.png);
     width: 100%;
     height: 640px;
     background-size: cover;
@@ -118,7 +118,7 @@ a:hover{
 .terciary-section{
     position: relative;
     top: 60px;
-    background-image: url(/img/section-3.png);
+    background-image: url(/img/terceary-section.png);
     width: 100%;
     height: 250px;
     background-size: cover;
