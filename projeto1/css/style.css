@@ -265,14 +265,17 @@ button:hover{
     .background1{
         height: 520px;
         width: 100%;
-        align-items: center;
+       
+        padding: 0% 0%;
     }
+
     .formulario{
         width: 280px;
         justify-content: center;
         height: 320px;
+        margin: 8% 10%;
     }
-
+*
     .container2{
         width: 100%;
         height: auto;
@@ -316,7 +319,7 @@ button:hover{
     }
     
     .sobre-empresa p{
-        margin-top: 50px;
+        margin-top: 8%;
         text-align: justify;
         width: 80%;
         justify-content: center;
@@ -328,14 +331,13 @@ button:hover{
     }
     
     .redes-sociais{
-        width: 100%;   
+        width: 90%; 
+        height: auto;
     }
     
     .facebook img, .twitter img, .linkedin img{
-        
-        margin: 70px 50% 10px 50%;
         height: 35%;
-        width: 25%;
+        width: 35%;
     }
     
 }
