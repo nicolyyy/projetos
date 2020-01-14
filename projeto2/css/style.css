@@ -4,7 +4,7 @@
 }
 
 .primary-section{
-    background-image: url(/img/background.png);
+    background-image: url(../img/background.png);
     width: 100%;
     height: 640px;
     background-size: cover;

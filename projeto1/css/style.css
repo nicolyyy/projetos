@@ -1,4 +1,4 @@
-*{
+﻿*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,16 +12,15 @@ html, body{
     width: 100%;
     background:#1b003f;
     float: right;
-    min-width: 1200px;
+    
 }
 .navbar{
     width: 700px;
 }
 
 .navbar a{
-    position: relative;
-    left: 680px;
     padding: 5px 40px;
+    float: right;
     font-size: 1.1rem;
     font-family: 'Kulim Park', sans-serif;
     text-decoration: none !important;
@@ -39,9 +38,12 @@ a:hover{
     background-position: center;
     background-image: url(../img/Nome\ da\ marca.png);
     background-repeat: no-repeat;
-    min-width: 1200px;
 }
 
+.clear{
+    clear: both;
+
+}
 .formulario{
     position: relative;
     width: 280px;
@@ -105,7 +107,7 @@ button:hover{
     width: 100%;
     margin-top: 2.5rem;
     border-bottom: 2px dotted rgb(213, 169, 226);
-    min-width: 1200px;
+   
 }
 .container1 h5{
     margin-top: 100px;
@@ -130,7 +132,7 @@ button:hover{
     height: auto;
     text-align: center;
     display: flex;
-    min-width: 1200px;
+ 
 }
 
 .service1 h5, .service2 h5, .service3 h5{
@@ -170,9 +172,8 @@ button:hover{
     display: flex;
     background:#1b003f;
     border-bottom: 0.5px solid white;
-    min-width: 1200px;
+   
 }
-
 
 .sobre-empresa{
     margin-top: 50px;
@@ -225,15 +226,12 @@ button:hover{
     display: block;
     margin: 0 auto;
     font-weight: bold;
-
 }
 
 .footer{
     width: 100%;
     height: auto;
     background:#1b003f;
-    min-width: 1200px;
-
 }
 
 .footer p{
@@ -246,7 +244,101 @@ button:hover{
 }
 
 
+@media screen and (max-width: 1028px){
 
+    .alinhamento{
+        width: 100%;
+        height: 60px;
+        float: none;
+    }
+
+    .navbar{
+        width: 100%;
+        padding: 0% 0;
+    }
+
+    .navbar a{
+        text-align: center;
+        padding: 1% 2%;
+    }
+
+    .background1{
+        height: 520px;
+        width: 100%;
+        align-items: center;
+    }
+    .formulario{
+        width: 280px;
+        justify-content: center;
+        height: 320px;
+    }
+
+    .container2{
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+
+    .service1, .service2, .service3{
+        width: 100%;
+        height: 100%;
+       
+    }
+    
+    .service1 img, .service2 img, .service3 img{
+        width: 30%;
+        height: 25%;
+        padding: 0px 5%;
+    }
+    
+    .service1 p, .service2 p, .service3 p{
+        width: 100%;
+        padding: 2% 10%;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+    .container-final{
+        width: 100%;
+        height: auto;
+        margin-top: 10%;
+        display: inline-block;
+    }
+    .sobre-empresa{
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    .sobre-empresa h5, .contato h5{
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .sobre-empresa p{
+        margin-top: 50px;
+        text-align: justify;
+        width: 80%;
+        justify-content: center;
+    }
+    
+    .contato{
+        margin: 10% auto;
+        width: 100%;
+    }
+    
+    .redes-sociais{
+        width: 100%;   
+    }
+    
+    .facebook img, .twitter img, .linkedin img{
+        
+        margin: 70px 50% 10px 50%;
+        height: 35%;
+        width: 25%;
+    }
+    
+}
 
 
 /* .navbar button{
