@@ -265,13 +265,12 @@ button:hover{
     .background1{
         height: 520px;
         width: 100%;
-       
         padding: 0% 0%;
     }
 
     .formulario{
         width: 280px;
-        justify-content: center;
+   
         height: 320px;
         margin: 8% 10%;
     }
