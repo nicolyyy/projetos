@@ -32,9 +32,17 @@ nav a {
     margin-right: 50px;
 }
 
+nav a:hover {
+    color: white;
+}
+
 nav a[href="1"] {
     color: white;
     font-weight: bold;
+}
+
+nav a[href="1"]:hover {
+    color: rgba(235, 235, 235, 0.932);
 }
 
 .container {
@@ -65,7 +73,7 @@ nav a[href="1"] {
 
 .services {
     background-color: #472663;
-    height: 60vh;
+    height: 65vh;
     max-height: 500px;
     color: white;
     display: flex;
@@ -76,9 +84,11 @@ nav a[href="1"] {
     width: 100%;
     max-width: 1280px;
     float: left;
-    padding-top: 75px;
+    padding-top: 85px;
     padding-left: 100px;
     float: left;
+    justify-content: start;
+    justify-content: space-between;
 }
 
 .list h1 {
@@ -112,15 +122,21 @@ button {
     border-radius: 20px;
 }
 
+button:hover {
+    transition: 0.4s linear;
+    background-color: #835fa8;
+    border: 1px solid #835fa8;
+}
+
 .bg-section {
     float: right;
     width: 100%;
 }
 
 .bg-section img {
-    height: 62vh;
+    height: 65vh;
     margin-left: 25%;
-    margin-top: -2.3%;
+    justify-content: end;
 }
 
 .section-father {
@@ -151,7 +167,7 @@ button {
 }
 
 .section-info {
-    height: 40vh;
+    height: 45vh;
     width: 100%;
 }
 
@@ -161,16 +177,16 @@ button {
     float: left;
     width: 50%;
     color: white;
-    padding-top: 5%;
+    padding-top: 6%;
 }
 
 .section-left h2 {
     padding-bottom: 3%;
-    padding-left: 5%;
+    padding-left: 8%;
 }
 
 .section-left p {
-    padding-left: 5%;
+    padding-left: 8%;
     width: 90%;
     font-size: 17px;
     font-weight: lighter;
@@ -183,7 +199,7 @@ button {
     float: right;
     width: 50%;
     color: #232323;
-    padding-top: 5%;
+    padding-top: 6%;
     padding-left: 5%;
 }
 
@@ -214,4 +230,123 @@ button {
     font-size: 17px;
     font-weight: lighter;
     text-align: justify;
+}
+
+.footer {
+    background-color: #472663;
+    height: 95vh;
+    width: 100%;
+    color: white;
+    padding-top: 90px;
+    padding-left: 8%;
+    display: flex
+}
+
+.footer-left {
+    width: 50%;
+    float: left;
+}
+
+.footer h2 {
+    padding: 15px 0;
+    display: block;
+    font-size: 28px;
+}
+
+.footer p {
+    display: block;
+    padding-top: 25px;
+    width: 320px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+input {
+    margin-top: 10px;
+    display: block;
+    height: 35px;
+    width: 320px;
+}
+
+textarea {
+    margin-top: 10px;
+    height: 135px;
+    width: 320px;
+    text-decoration: none;
+    resize: none;
+}
+
+input[type="submit"] {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: #ff703e;
+    margin: 20px;
+    width: 320px;
+    margin-left: 0;
+    border: 1px solid #ff703e;
+    border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+    transition: 0.4s linear;
+    background-color: #835fa8;
+    border: 1px solid #835fa8;
+}
+
+.footer-right {
+    width: 50%;
+    float: right;
+}
+
+.footer-right h2 {
+    padding-left: 25%;
+}
+
+.footer-right iframe {
+    margin-top: 25px;
+    padding-left: 25%;
+    height: 370px;
+    width: 650px;
+}
+
+footer {
+    height: 70px;
+    text-align: center;
+    width: 100%;
+    transition: 0.4s;
+    min-width: 1280px;
+    background-color: #6A557D;
+    opacity: 80%;
+}
+
+.copyright {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 250px;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.powered-by {
+    margin: 0px 400px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: white;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+}
+
+.powered-by a[name="author"]:hover {
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 70%;
+    color: #472663;
 }
