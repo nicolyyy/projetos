@@ -4,6 +4,7 @@
 
 <ul> 
  <li>https://nicolyyy.github.io/projetos/projeto1/</li>
+ <li>https://nicolyyy.github.io/projetos/projeto2/</li>
 <li>https://nicolyyy.github.io/projetos/projeto3/ </li>
  </ul>
  
