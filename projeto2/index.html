@@ -1,87 +1,157 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>Site 2</title>
-    <meta charset="utf-8" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amiko|IBM+Plex+Sans+Condensed|Livvic|Roboto+Condensed&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <div class="primary-section">
-        <div class="navbar">
-            <a href="1">HOME</a>
-            <a href="#">SOBRE</a>
-            <a href="#">TRABALHOS</a>
-            <button class="button-primary">CONTATO</button>
-        </div>
-        <div class="text">
-            <h4 class="title-1">ENTREPRISE DEUX</h4>
-            <center>
-                <h2 class="title-2"> Nous pouvons réaliser votre rêve.</h2>
-            </center>
-        </div>
-    </div>
-
-    <div class="secundary-section">
-        <h2>Olá, nós somos a <strong>ENTREPRISE DEUX</strong></h2>
-        <p>Nosso trabalho é tornar os seus <span>sonhos possíveis</span>, temos os melhores profissionais para <span>auxiliar na sua jornada</span>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel blandit quam. Sed at ex eget arcu
-            facilisis lobortis nec vitae nisl. Nulla quis lorem cursus, rutrum velit eu, imperdiet arcu. Nullam quis orci egestas, pellentesque enim in, efficitur mauris. Quisque interdum non nulla eget vehicula. Nulla nec tempor diam. </p>
-    </div>
-
-    <div class="terciary-section">
-        <center>
-            <p>Estilo & Autenticidade</p>
-        </center>
-    </div>
-
-    <div class="quartenary-section">
-        <h5 class="div-title">Conheça um pouco do nosso trabalho:</h5>
-
-        <div class="card-group">
-            <div class="card">
-                <img src="img/card.jpg" />
-                <div class="container">
-                    <h5>Serviço</h5>
-                    <p>Profissionais</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="img/card.jpg" />
-                <div class="container">
-                    <h5>Serviço</h5>
-                    <p>Profissionais</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="img/card.jpg" />
-                <div class="container">
-                    <h5>Serviço</h5>
-                    <p>Profissionais</p>
-                </div>
+<html lang="pt-br">
+    <head>
+        <title>Flex-Blog</title>
+        <link href="css/style.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    </head>
+    <body>
+        <div class="info-inicial">
+            <div class="itens-inicial">
+                <p>Seg/Sex - 08:00 às 18:00</p>
+                <p>+55 21 999-9999</p>
+                <p>Av. Endereço, 000</p>
             </div>
         </div>
+        
+        <header class="flex-blog">
+            <div class="flex-blog-itens">
+               <div class="flex-logo">
+                   <h2>FlexBlog</h2>
+               </div> 
+                <nav class="menu-nav"> 
+                    <ul>
+                        <li> <a href = "#">Sobre</a ></li>
+                        <li> <a href = "#">Produtos</a ></li>
+                        <li><a href = "#">Preço</a></li>
+                        <li><a href = "#">Qualidade</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
+        
+        <h1 class="intro">Novos valores e<br> Propriedades de CSS</h1>
 
-    </div>
-    </div>
-    <div class="redes-sociais">
-        <img src="img/facebook.png" />
-        <img src="img/instagram.png" />
-        <img src="img/twitter.png" />
-    </div>
+        <section class="sobre" id="sobre">
+            <div class="sobre-info">
+                <h1>Sobre</h1>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+            </div>
+            <div class="sobre-img">
+                <img class="img1-sobre" src="img/sobre1.jpg" alt="Sobre1"/>
+            </div>
+            <div class="sobre-img">
+                 <img class="img2-sobre" src="img/sobre2.jpg" alt="Sobre2"/>
+            </div>
+        </section>
 
-    <div class="footer">
-        <p class="location">LOREM IPSUM, 777 NAMELESS AVE, NOVA YORK, 000-000-000</p>
-        <p class="powered-by">Powered by <a href=".">nicolyyy</a></p>
-    </div>
+        <section class="produtos" id="produtos">
+            <h1>Produtos</h1>
+            <div class="container-produtos">
+                <div class="purple">
+                    <h1>Purple</h1>
+                    <img class="img-purple" src="img/produtos1.jpg" alt="Produtos1"/>
+                </div>
 
+                <div class="pink">
+                    <h1>Pink</h1>
+                    <img class="img-pink" src="img/produtos2.jpg" alt="Produtos2"/>
+                </div>
 
-</body>
+                <div class="blue">
+                    <h1>Blue</h1>
+                    <img class="img-blue" src="img/produtos3.jpg" alt="Produtos3"/>
+                </div>
+            </div>
+        </section>
 
+        <section class="precos" id="precos">
+            <div class="card-preco">
+                <h1>Cobre</h1>
+                <span><sup>R$</sup>19</span>
+                <ul>
+                    <li>Planos Ilimitados</li>
+                    <li>Acesso Restrito</li>
+                    <li>Conteúdo Secreto</li>
+                    <li>Suporte 24h</li>
+                </ul>
+                <a href="#">COMPRAR</a>
+            </div>
+
+            <div class="card-preco">
+                <h1>Prata</h1>
+                <span><sup>R$</sup>50</span>
+                <ul>
+                    <li>Planos Ilimitados</li>
+                    <li>Acesso Restrito</li>
+                    <li>Conteúdo Secreto</li>
+                    <li>Suporte 24h</li>
+                </ul>
+                <a href="#">COMPRAR</a>
+            </div>
+
+            <div class="card-preco">
+                <h1>Ouro</h1>
+                <span><sup>R$</sup>100</span>
+                <ul>
+                    <li>Planos Ilimitados</li>
+                    <li>Acesso Restrito</li>
+                    <li>Conteúdo Secreto</li>
+                    <li>Suporte 24h</li>
+                </ul>
+                <a href="#">COMPRAR</a>
+            </div>
+        </section>
+
+        <section class="qualidade" id="qualidade">
+            <div class="qualidade-item">
+                <h2>Inteligente</h2>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+            </div>
+            <div class="qualidade-item">
+                <h2>Compacto</h2>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
+            </div>
+            <div class="qualidade-item">
+                <h2>Econômico</h2>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+            </div>
+            <div class="qualidade-item">
+                <h2>Transparente</h2>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+            </div>
+            <div class="qualidade-item">
+                <h2>Opaco</h2>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente
+                </p>
+            </div>
+            <div class="qualidade-item">
+                <h2>Sustentável</h2>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+            </div>
+        </section>
+
+        <section class="newsletter" id="newsletter">
+            <div class="title-newsletter">
+                <h1>Newsletter</h1>
+                <p>assine e fique por dentro das novidades</p>
+            </div>
+
+            <div class="form-email">
+                <form>
+                    <input type="email" placeholder="Seu Email"/><br>
+                    <button type="submit">Assinar</button>
+                </form>
+            </div> 
+        </section>
+        
+        <footer class="footer">
+            <p>FlexBlog © Todos os direitos reservados.</p>
+        </footer>
+
+    </body>
 </html>
