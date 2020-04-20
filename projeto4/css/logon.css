@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container-header{
+    padding: 5px 20px;
+    background-color: rgb(78, 43, 158);
+}
+
+.container-align{
+    display: flex;
+    align-items: center;
+    max-width: 960px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+.logo img{
+    height: 70px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.nav-header ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-header ul a{
+    color: white;
+    display: block;
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 18px;
+    transition: filter 0.5s;
+}
+
+.nav-header ul a:hover{
+    filter: brightness(85%);
+}
+
+.main-container{
+    max-width: 960px;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.form-submit{
+    display: block;
+    flex: 1 1 400px;
+    justify-content: center;
+
+}
+.form-submit h2{
+    font-size: 3.2rem;
+   margin: 20px;
+}
+
+.form-submit input{
+    max-width: 350px;
+    display: block;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    width: 70%;
+}
+
+.form-submit a{
+    margin: 0px 30px;
+}
+input{
+    padding: 0 20px;
+}
+
+button{
+    max-width: 350px;
+    width: 70%;
+    height: 60px;
+    background-color: rgb(78, 43, 158);
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    transition: ease-out 1s;
+    justify-content: center;
+    padding: 0 20px;
+    margin: 10px 20px;
+}
+
+button:hover{
+    background-color: rgba(78, 43, 158, 0.897);
+    border: 1px solid #4E2B9E;
+    cursor: pointer;
+}
+
+.bg-main-container img{
+    display: flex;
+    height: 500px;
+    max-width: 680px;
+}
+
+
+
