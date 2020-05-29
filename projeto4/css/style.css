@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 *{
     padding: 0;
@@ -19,7 +20,7 @@ ul {
 
 .main-header{
     background-image: url(../img/bg-header.jpg);
-    height: 90vh;
+    height: 92vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -28,16 +29,17 @@ ul {
 .container-align{
     display: flex;
     align-items: center;
-    max-width: 960px;
+    max-width: 990px;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 
 .logo img{
-    height: 70px;
-    margin: 0 100px;
+    height: 80px;
+    margin:  0px 100px;
+    margin-bottom: 20px;
     cursor: pointer;
 }
 
@@ -45,51 +47,57 @@ ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    text-decoration: none;
 }
 
-.nav-header ul a{
+ a[href="#container-sobre-nos"], a[href="#como-funciona?"],
+ a[href="#por-que-participar"]{
     color: rgb(85, 85, 85);
     display: block;
     padding: 0 20px;
-    font-weight: 400;
+    font-weight: lighter;
     font-size: 18px;
     transition:  0.5s;
     text-decoration: none;
 }
 
-.nav-header ul a:hover{
+a[href="#container-sobre-nos"]:hover, a[href="#como-funciona?"]:hover,
+a[href="#por-que-participar"]:hover{
     filter: brightness(5%);
+    text-decoration: none;
 }
 
-
 .button-cadastrar{
-    height: 40px;
-    width: 160px;
+    font-family: 'Lato', sans-serif;
+    color: rgba(78, 43, 158, 0.74) !important;
+    height: 45px;
+    width: 170px;
     margin: 3px;
-    background-color: transparent;
-    border: 1px solid rgb(78, 43, 158);
-    border-radius: 10px;
+    background-color: rgba(78, 43, 158, 0.801);
+    border: 0;
+    border-radius: 35px;
     font-weight: bolder;
     display: inline-block;
     text-decoration: none;
     font-size: 18px;
     justify-content: center;
-    transition: ease-in-out 0.8s;
-    color: #fff !important;
+    transition: ease-in-out 0.7s;
 }
 .button-cadastrar a{
-    color: rgb(85, 85, 85);
+    color: #fff;
     font-weight: bolder;
+    text-decoration: none;
 }
 .button-cadastrar a:hover{
-    color: rgb(85, 85, 85);
+    color: rgba(78, 43, 158, 0.74) !important;
+    text-decoration: none;
 }
 
-
 .button-cadastrar:hover{
-    background-color:rgb(78, 43, 158);
-    cursor: pointer;
-    color: rgb(85, 85, 85);
+    color: rgba(78, 43, 158, 0.74) !important;
+    border: 2px solid rgba(78, 43, 158, 0.322);
+    background-color: transparent;
+   cursor: pointer;
 }
 
 .container-sobre-nos{
@@ -287,7 +295,6 @@ input{
 }
 
 .container-por-que-participar{
-    
     margin: 0 auto;
     max-width: 960px;
 }
@@ -295,7 +302,7 @@ input{
 .container-por-que-participar h2{
     font-family: 'Libre Franklin', sans-serif;
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 3.6rem;
     color: #fff;
     padding-top: 110px;
     text-align: center;
@@ -303,16 +310,16 @@ input{
 .container-por-que-participar h3{
     font-family: 'Libre Franklin', sans-serif;
     font-weight: bold;
-    font-size: 3.8rem;
+    font-size: 3.9rem;
     color: #fff;
-    padding-top:20px;
+    padding-top: 40px;
     text-align: center;
 }
 
 .container-por-que-participar p{
     font-size: 1.3rem;
     text-align: center;
-    color:rgb(190, 190, 190);
+    color:rgba(190, 190, 190, 0.918);
     font-weight: 300;
     padding-top: 10px;
     font-family: 'Roboto', sans-serif;
@@ -350,15 +357,3 @@ input{
     color: lightgrey;
     text-decoration: none;
 }
-/* .container-carousel{
-    background-color: rgb(78, 43, 158);
-    height: 45vh;
-}
-.carousel{
-    padding: 60px 0;
-    max-width: 960px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: rgb(78, 43, 158);
-    color: #fff;
-} */
