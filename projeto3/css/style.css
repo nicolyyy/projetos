@@ -10,6 +10,10 @@ body {
     height: 100%;
 }
 
+html { /* serve para diminuir o tempo de scroll */
+    scroll-behavior: smooth;
+}
+
 header {
     background-image: url(../img/capa.png);
     width: 100%;

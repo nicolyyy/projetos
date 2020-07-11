@@ -8,6 +8,11 @@ html, body{
     height: 100%;
 }
 
+
+html { /* serve para diminuir o tempo de scroll */
+    scroll-behavior: smooth;
+}
+
 .alinhamento{
     width: 100%;
     background:#1b003f;

@@ -11,6 +11,10 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+html { /* serve para diminuir o tempo de scroll */
+  scroll-behavior: smooth;
+}
+
 a{
     text-decoration: none;
 }

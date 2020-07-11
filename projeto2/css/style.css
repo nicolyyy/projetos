@@ -9,6 +9,10 @@ html, body{
     height: 100%;
 }
 
+html { /* serve para diminuir o tempo de scroll */
+    scroll-behavior: smooth;
+}
+
 a{
     text-decoration: none;
     color: white;
